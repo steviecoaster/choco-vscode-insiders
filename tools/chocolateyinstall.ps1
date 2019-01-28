@@ -1,7 +1,7 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = ''
+$url        = 'https://go.microsoft.com/fwlink/?LinkId=723965'
 $url64      = 'https://go.microsoft.com/fwlink/?Linkid=852155'
 
 $packageArgs = @{
@@ -13,9 +13,9 @@ $packageArgs = @{
 
   softwareName  = 'VSCode-Insiders*'
 
-  checksum      = ''
+  checksum      = '8D35F52EC52437CDFCCC9C35BD64F982602AC3D5513B81D4BDB977C59F81EE6A'
   checksumType  = 'sha256'
-  checksum64    = ''
+  checksum64    = '840A231383E0C00305DB95379FD678FEF3798B13B736340770DE8FFA03B70940'
   checksumType64= 'sha256'
 
   validExitCodes= @(0, 3010, 1641)
