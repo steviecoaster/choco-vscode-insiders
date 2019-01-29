@@ -1,8 +1,8 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://go.microsoft.com/fwlink/?LinkId=723965'
-$url64      = 'https://go.microsoft.com/fwlink/?Linkid=852155'
+$url        = 'https://update.code.visualstudio.com/latest/win32/insider'
+$url64      = 'https://update.code.visualstudio.com/latest/win32-x64/insider'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
