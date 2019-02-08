@@ -1,8 +1,8 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://update.code.visualstudio.com/latest/win32/insider'
-$url64      = 'https://update.code.visualstudio.com/latest/win32-x64/insider'
+$url        = 'https://az764295.vo.msecnd.net/insider/709bf352b12de8284683bef94cb5984129bfc776/VSCodeSetup-ia32-1.32.0-insider.exe'
+$url64      = 'https://az764295.vo.msecnd.net/insider/709bf352b12de8284683bef94cb5984129bfc776/VSCodeSetup-x64-1.32.0-insider.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
