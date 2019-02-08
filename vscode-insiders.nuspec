@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>vscode-insiders</id>
-    <version>1.30</version>
+    <version>1.32</version>
     <title>Visual Studio Code Insiders Edition</title>
     <authors>Microsoft</authors>
     <owners>Stephen Valdinger</owners>
